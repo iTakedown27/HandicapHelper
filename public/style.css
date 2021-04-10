@@ -38,6 +38,7 @@
     background-color: black;
     color:white;
     text-align: center;
+    margin-left: 820px;
 }
 
 .loginheader {
@@ -124,6 +125,10 @@
 .tipspage {
     background-color: black;
     color: white;
+}
+.tips {
+    background-color: red;
+    color:white;
 }
 
 .tipsheader {

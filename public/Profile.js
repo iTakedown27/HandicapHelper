@@ -1,3 +1,5 @@
+/* UNUSED */
+
 class Profile {
     constructor(login, password) {
         this.login = login;
@@ -11,6 +13,5 @@ class Profile {
     printPassword() {
         return this.password;
     }
-
 
 }
