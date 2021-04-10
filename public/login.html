@@ -6,8 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>HandicapHelper Login</title>
+    <style type="login/css">
+        form {
+            width:400px;
+            margin:200px auto;
+        }
+        div {
+            width: 100%;
+            margin: 15px auto;
+        }
+        label {
+            display: block;
+            padding:20px;
+            font-size:25px;
+        }
+        input {
+            width:96%;
+            padding:10px;
+            border:1px;
+        }
+    </style>
 </head>
 <body>
     <h1 class="loginheader">Login to your account</h1>
+    <form method="POST">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="username">
+            <span></span>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="text" name="password" placeholder="password">
+            <span></span>
+        </div>
+    </form>
+    <br>
+    <button id="login" class="loginclick">Login</button>
+    <br>
+    <button class="home" onclick="window.location.href='index.html'">Home</button>
 </body>
 </html>
+<script type="text/javascript">
+    window.onload = () => {
+        var input = document.getElementsByTagName('input');
+        var login = document.getElementById('login');
+        var form = document.querySelector('form');
+        form.onsubmit = () => {return false}
+
+        login.onClick = () => {
+            if ((input[0].value != "" && (input[1].value != ""))) {
+                if ((input[0].value == sessionStorage.getItem("username")) && (input[1].value == sessionStorage.getItem("password"))) {
+                    form.onsubmit = () => {return 1}
+                }
+                else {
+                    if ((input[0].value != sessionStorage.getItem("username"))) {
+                        input[0].nextElementSibling.textContent = "Username does not match.";
+                        setTimeout(() => {
+                            input[0].nextElementSibling.textContent = "";
+                        }, 2000);
+                    }
+                    if ((input[1].value != sessionStorage.getItem("password"))) {
+                        input[1].nextElementSibling.textContent = "Password does not match.";
+                        setTimeout(() => {
+                            input[1].nextElementSibling.textContent = "";
+                        }, 2000);
+                    }
+                }
+            }
+            else {
+                if (input[0].value != "") {
+                    input[0].nextElementSibling.textContent = "Please enter a username.";
+                    setTimeout(() => {
+                        input[0].nextElementSibling.textContent ="";
+                    }, 200);
+                }
+            }
+        }
+    }
+</script>

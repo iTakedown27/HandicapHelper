@@ -33,7 +33,23 @@
     text-align: center;
 }
 
+.login {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
 .loginheader {
     color: white;
     text-align: center;
+}
+
+.loginclick {
+    background-color: blue;
+    color:white
+}
+
+.register {
+    background-color: blue;
+    color:white;
 }
