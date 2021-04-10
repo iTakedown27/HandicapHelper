@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="weather">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Weather</h1>
+        <p>Weather information in Cupertino: </p>
+    </div>
+
+    <div>
+        <script>
+            var weather; // Cupertino weather
+    
+            function api() {
+                loadJSON('http://api.openweathermap.org/data/2.5/weather?q=Cupertino&appid=237d7b4180311e3724c4087d35d261d4', gotData);
+            }
+    
+            function gotData(data) {
+                println(data);
+                weather = data;
+            }
+    
+            if (weather) {
+                console.log(gotData(data));
+            }
+        </script>
+    </div>
+    
+</body>
+</html>
+
