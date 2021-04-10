@@ -1,0 +1,39 @@
+.homepage {
+    background-color: black;
+}
+
+.pagetop {
+    text-align: center;
+    color: aqua;
+    font-size: 40px;
+}
+
+.help {
+    background-color: red;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    font-size: 100px;
+    border-radius: 50px;
+}
+
+.home {
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size:100px;
+}
+
+.waiting {
+    background-color: black;
+}
+
+.waitingheader {
+    color: aqua;
+    text-align: center;
+}
+
+.loginheader {
+    color: white;
+    text-align: center;
+}
