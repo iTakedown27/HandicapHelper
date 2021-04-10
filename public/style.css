@@ -53,3 +53,27 @@
     background-color: blue;
     color:white;
 }
+
+.registerpage {
+    background-color: black;
+    color:white;
+}
+
+.registerheader {
+    color: aqua;
+    text-align: center;
+}
+
+.registertext {
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.registername {
+    text-align: center;
+}
+
+.registerpw {
+    text-align: center;
+}

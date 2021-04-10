@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="registerpage">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Register for an Account</title>
 </head>
 <body>
-    
+    <h1 class="registerheader">Register for an account</h1>
+    <p class="registertext">This account is controlled by a parent. Since kids with disabilities
+        may not know how to <br> use certain types of technology, ultimately their parent is in charge of logging in to the <br>
+        account, which logs the kid in from his/her device.
+    </p>
+    <style type="register/css">
+        form {
+            width:400px;
+            margin:200px auto;
+        }
+        div {
+            width: 100%;
+            margin: 15px auto;
+        }
+        label {
+            display: block;
+            padding:20px;
+            font-size:25px;
+        }
+        input {
+            width:96%;
+            padding:10px;
+            border:1px;
+        }
+    </style>
+    <form method="POST">
+    <div class="registername">
+        <label for="username">Enter Username</label>
+        <input type="text" name="username" placeholder="username">
+        <span></span>
+    </div>
+    <div class="registerpw">
+        <label for="password">Enter Password</label>
+        <input type="text" name="password" placeholder="password">
+        <span></span>
+    </div>
+    </form>
 </body>
 </html>
