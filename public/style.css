@@ -1,10 +1,11 @@
 .homepage {
     background-color: black;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.IwnFair_YBSecZiRavBXLgHaE7&pid=Api&P=0&w=284&h=190);
 }
 
 .pagetop {
     text-align: center;
-    color: aqua;
+    color: black;
     font-size: 40px;
 }
 
@@ -38,17 +39,22 @@
     background-color: black;
     color:white;
     text-align: center;
-    margin-left: 820px;
 }
 
 .loginheader {
-    color: white;
+    color: red;
     text-align: center;
 }
 
 .loginclick {
     background-color: blue;
     color:white
+}
+
+.loginclick1 {
+    background-color: black;
+    color:white;
+    margin-left: 820px;
 }
 
 .register {
@@ -67,7 +73,7 @@
 }
 
 .registertext {
-    color:white;
+    color:red;
     text-align: center;
     font-size: 25px;
 }
@@ -94,8 +100,9 @@
 .registerclick {
     text-align: center;
     background-color: aquamarine;
-    color: white;
+    color: black;
     font-size:25px;
+    margin-left: 800px;
 }
 
 .aboutheader {

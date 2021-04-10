@@ -32,17 +32,22 @@
     <h1 class="loginheader">Login to your account</h1>
     <form method="POST">
         <div>
-            <label for="username">Username</label>
+            <label for="username" class="noacc">Username</label>
             <input type="text" name="username" placeholder="username">
             <span></span>
         </div>
         <div>
-            <label for="password">Password</label>
+            <label for="password" class="noacc">Password</label>
             <input type="text" name="password" placeholder="password">
             <span></span>
         </div>
-        <p>Don't have an account? <button class="register" onclick="window.location.href='register.html'">Register</button> </p>
+        <p class="noacc">Don't have an account? <button class="register" onclick="window.location.href='register.html'">Register</button> </p>
     </form>
+    <style>
+        .noacc {
+            color: red;
+        }
+    </style>
     <br>
     <button id="login" class="loginclick">Login</button>
     <br>
