@@ -1,0 +1,23 @@
+{
+  "name": "handicaphelper",
+  "version": "1.0.0",
+  "description": "An app that helps kids with disabilities navigate through technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iTakedown27/HandicapHelper.git"
+  },
+  "author": "Clement Boiteux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iTakedown27/HandicapHelper/issues"
+  },
+  "homepage": "https://github.com/iTakedown27/HandicapHelper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.12.3"
+  }
+}

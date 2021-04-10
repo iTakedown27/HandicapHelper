@@ -1,2 +1,2 @@
 # HandicapHelper
-Wilhacks 2.0 project. Might update this later on. This website is meant to help kids with disabilities navigate through technology
+This website is meant to help kids with disabilities navigate through technology, supply their technological needs, and give a referral to their parents if they need help. If the parent does not respond within 15 minutes, a person will request to aid the child in navigating through technology in a way they can understand.
