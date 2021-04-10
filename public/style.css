@@ -15,6 +15,7 @@
     display: inline-block;
     font-size: 100px;
     border-radius: 50px;
+    margin-left: 800px;
 }
 
 .home {
@@ -76,4 +77,15 @@
 
 .registerpw {
     text-align: center;
+}
+
+.mainTitle {
+    -ms-transform: translateY(-50%);
+    transform: translateY(+10%);
+}
+
+.helptext {
+    text-align: center;
+    color: white;
+    font-size: 25px;
 }
