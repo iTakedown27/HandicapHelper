@@ -4,7 +4,13 @@ class Profile {
         this.password = password;
     }
 
-    printName() {
+    printLogin() {
         return this.login;
     }
+
+    printPassword() {
+        return this.password;
+    }
+
+
 }

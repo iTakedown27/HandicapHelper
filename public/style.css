@@ -89,3 +89,49 @@
     color: white;
     font-size: 25px;
 }
+
+.registerclick {
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+    font-size:25px;
+}
+
+.aboutheader {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.abouttext {
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about {
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    font-size: 14px;
+}
+
+.aboutpage {
+    background-color: black;
+}
+
+.tipspage {
+    background-color: black;
+    color: white;
+}
+
+.tipsheader {
+    text-align: center;
+}
+
+.tipstext {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

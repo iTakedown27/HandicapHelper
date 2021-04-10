@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Register for an Account</title>
+    <image class="mainTitle" src="logo.png"></image>
 </head>
 <body>
-    <image class="mainTitle" src="logo.png"></image>
     <h1 class="registerheader">Register for an account</h1>
     <p class="registertext">This account is controlled by a parent. Since kids with disabilities
         may not know how to <br> use certain types of technology, ultimately their parent is in charge of logging in to the <br>
@@ -45,16 +45,15 @@
         <input type="text" name="password" placeholder="password">
         <span></span>
     </div>
+    <button class="registerclick">Confirm</button>
     </form>
     <button class="home" onclick="window.location.href='index.html'">Home</button>
-    <script>
+    <script src="Profile.js" id="registerinfo">
         var input = document.getElementsByTagName('input');
-        /*
-        var username = input[0].value;
+        var login = input[0].value;
         var password = input[1].value;
-        */
-        var username = new Profile(input[0].value, input[1].value);
-    
+        var user = new Profile(login, password);
+
     </script>
 </body>
 </html>

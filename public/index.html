@@ -10,9 +10,15 @@
 </head>
 <body>
     <script>fetch('/').then(response => response.text()).then(text => console.log(text))</script>
+    <script src="register.html">
+        var profile = document.getElementById('registerinfo');
+
+    </script>
     <h1 class="pagetop">Welcome to HandicapHelper!</h1>
     <button class="help" onclick="window.location.href='waiting.html'">Help!</button> <br>
     <button class="login" onclick="window.location.href='login.html'">Login</button>
     <button class="register" onclick="window.location.href='register.html'">Register</button>
+    <button class="about" onclick="window.location.href='about.html'">About</button>
+    <button class="tips" onclick="window.location.href='tips.html'">Tips</button>
 </body>
 </html>
