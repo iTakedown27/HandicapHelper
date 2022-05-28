@@ -6,11 +6,11 @@ class Profile {
         this.password = password;
     }
 
-    printLogin() {
+    get printLogin() {
         return this.login;
     }
 
-    printPassword() {
+    get printPassword() {
         return this.password;
     }
 
